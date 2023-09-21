@@ -1,2 +1,2 @@
 # scorecard
-A basket ball scorecard built with HTML CSS and Javascript. #scrimba
+A basket ball scorecard built with HTML CSS and Javascript
