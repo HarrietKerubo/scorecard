@@ -20,7 +20,7 @@ body {
 .button-container{
     display: flex;
     justify-content: space-around;
-    margin-top: 26px;
+    margin-top: 26px; 
     
 }
 .scoreBoard{
@@ -48,6 +48,23 @@ h3{
     text-align: center;
 }
 
+.countdown{
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    border: 4px solid #ffffff;
+    border-radius: 5px;
+    width: 300px;
+    height: 125px;
+    background: #080001;
+    text-align: center;
+    margin: 0px auto;
+   
+}
+
+#timer{
+    font-size: 70px;
+    color: greenyellow;
+}
+
 h1{
     font-size: 90px;
     font-weight: 400;
@@ -60,7 +77,8 @@ h1{
    display: flex;
    justify-content: space-between;
    width: 155px;
-    height: 45px ;
+   height: 45px ;
+
 
 }
 
@@ -79,4 +97,33 @@ h1{
 
 .btn:hover{
     border: 3px solid #b9c9f5;
+}
+
+#resetGame{
+    width: 400px;
+    margin: 30px auto;
+    padding: 5px 10px;
+    height: 45px;
+    background: none;
+    border: 2px solid #9AABD8;
+    color: #ffffff;
+    font-family: Verdana; 
+    font-size: 24px;
+    font-weight: 700;
+
+
+}
+
+#resetGame:hover{
+    border: 3px solid #b9c9f5;
+}
+
+#winner{
+    background : url("/images/win.webp");
+    background-size: cover;
+    font-size: 40px;
+    font-family: Verdana;
+    color: greenyellow;
+    font-weight: 700;
+    text-shadow: 2px 2px 2px black;
 }
