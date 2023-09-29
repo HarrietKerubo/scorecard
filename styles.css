@@ -10,6 +10,7 @@ body {
  width: 500px;
  margin: 0 auto;
  height: 100vh;
+ max-width: 100%;
  
 }
 
@@ -166,5 +167,8 @@ h1{
     }
     #tie {
         font-size: 20px;
+    }
+    .countdown{
+        margin-top: 50px
     }
 }
