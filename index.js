@@ -90,9 +90,13 @@ function announceWinner() {
     document.querySelector(
       "#timer"
     ).innerHTML = `<h1 id="winner"> HOME WON!! </h1>`;
-  } else {
+  } else if (guestScore > homeScore) {
     document.querySelector(
       "#timer"
     ).innerHTML = `<h1 id="winner"> GUEST WON !! </h1>`;
+  } else {
+    document.querySelector(
+      "#timer"
+    ).innerHTML = `<h1 id="tie"> Its a tie </h1>`;
   }
 }

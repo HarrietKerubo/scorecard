@@ -16,13 +16,10 @@ body {
 .container {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
+   
 }
-.button-container{
-    display: flex;
-    justify-content: space-around;
-    margin-top: 26px; 
-    
-}
+
 .scoreBoard{
     color: #ffffff;
     font-family: Verdana; 
@@ -76,8 +73,10 @@ h1{
 .scoreBtns{
    display: flex;
    justify-content: space-between;
+   flex-wrap: wrap;
    width: 155px;
    height: 45px ;
+   margin-top: 26px; 
 
 
 }
@@ -92,6 +91,7 @@ h1{
     font-size: 18px;
     font-weight: 400;
     text-align: center;
+    
     
 }
 
@@ -119,11 +119,52 @@ h1{
 }
 
 #winner{
-    background : url("/images/win.webp");
+    background : url("images/win.webp");
     background-size: cover;
-    font-size: 40px;
+    height: 125px;
+    font-size: 35px;
     font-family: Verdana;
     color: greenyellow;
     font-weight: 700;
     text-shadow: 2px 2px 2px black;
+}
+
+#tie{
+    background : url("images/tie.webp");
+    background-size: cover;
+    height: 125px;
+    font-size: 35px;
+    font-family: Verdana;
+    color: greenyellow;
+    font-weight: 700;
+    text-shadow: 2px 2px 2px black;
+}
+
+
+@media (max-width: 500px) {
+    .container {
+        flex-direction: column; /* Stack scoreboards vertically on smaller screens */
+        align-items: center; /* Center align scoreboards */
+        text-align: center;
+        margin: 0px auto;
+    }
+
+    .countdown {
+        width: 200px;
+    }
+    #timer{
+        font-size: 50px;
+
+    }
+
+    #resetGame{
+        width: 200px;
+    }
+
+    #winner {
+        font-size: 20px;
+    }
+    #tie {
+        font-size: 20px;
+    }
 }
