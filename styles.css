@@ -169,6 +169,10 @@ h1{
         font-size: 20px;
     }
     .countdown{
+<<<<<<< HEAD
         margin-top: 50px
     }
+=======
+        margin-top: 50px;
+>>>>>>> 13765b1c788e93af9b3e994ce862a55991e12daa
 }
