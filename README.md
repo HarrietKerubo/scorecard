@@ -14,7 +14,7 @@ I first created all the elements and designed them following the styles (dimensi
 
 I used Javascript to make the scoreboard interactive. This enables for one to: </br>
 •	Start a new game </br>
-•	Countdown time allocated for the game ( For the purpose of demonstration, I set the timer to 6 seconds) </br>
+•	Countdown time allocated for the game ( For the purpose of demonstration, I set the timer to 10 seconds) </br>
 •	Add scores for both the Home and the Guest teams </br>
 •	Declare the winner once the countdown reaches 0 </br>
 
